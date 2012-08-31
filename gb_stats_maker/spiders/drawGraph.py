@@ -42,8 +42,6 @@ class DrawGraph:
 		symbols = ['-', '--', '-.', ':']
 		colors = ['b', 'g', 'r', 'c', 'y', 'k']
 		designLine = []
-#		for c in colors:
-#			for s in symbols:
 		for s in symbols:
 			for c in colors:
 				designLine.append(c + s)

@@ -27,10 +27,5 @@ stamp = open("stp", "wt")
 stamp.write(args.name + ':' + args.password + ':' + output)
 stamp.close()
 
-#We only continue the execution if has give a username and a password.
-#if not name or not password:
-#	usage()
-#	sys.exit(1)
-
 #Execution of the crawler, that will also make the graph.
 os.system("scrapy crawl gb")
